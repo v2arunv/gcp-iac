@@ -1,9 +1,16 @@
 # Local .terraform directories
 **/.terraform/*
+**.tfrc
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# GCP
+**.credentials.json
+
+# IntelliJ
+.idea/
 
 # Crash log files
 crash.log
