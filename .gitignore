@@ -8,6 +8,7 @@
 
 # GCP
 **.credentials.json
+credentials.json
 
 # IntelliJ
 .idea/

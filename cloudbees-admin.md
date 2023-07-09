@@ -16,9 +16,15 @@ chmod +x CloudBeesFlow-x64-2023.06.0.164409
 sudo ./CloudBeesFlow-x64-2023.06.0.164409
 ```
 
+Make sure you create a symlink named `credentials.json` since that is used the TF provider to authenticate itself with GCP
+
 ## Setup
 
 Ensure ports 80 and 443 are open. First time username is `admin` and password is `changeme`. If you're using my instance, the password now is `mwkkvy4MYB3uqfery`
+
+Install terrform by following instructions https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+
+
 
 # Creating CloudBees CI (not important)
 
