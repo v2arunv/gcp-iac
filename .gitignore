@@ -2,12 +2,16 @@
 **/.terraform/*
 **.tfrc
 
+# Credentials
+.tokens
+.tokens/**
+**.credentials.json
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
 
 # GCP
-**.credentials.json
 credentials.json
 
 # IntelliJ
